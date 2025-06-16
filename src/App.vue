@@ -20,7 +20,7 @@
                         <p>Birth year: <span>896 BBY</span></p>
                         <p>Gender: <span>Male</span></p>
                     </div>
-                    <button><p>Edit</p></button>
+                    <button>Edit</button>
                 </div>
             </div>
             <div class="item item-2">
@@ -35,7 +35,7 @@
                         <p>Birth year: <span>41 BBY</span></p>
                         <p>Gender: <span>Male</span></p>
                     </div>
-                    <button><p>Edit</p></button>
+                    <button>Edit</button>
                 </div>
             </div>
             <div class="item item-3">
@@ -50,7 +50,7 @@
                         <p>Birth year: <span>57 BBY</span></p>
                         <p>Gender: <span>Male</span></p>
                     </div>
-                    <button><p>Edit</p></button>
+                    <button>Edit</button>
                 </div>
             </div>
         </div>
@@ -139,11 +139,8 @@ header {
                 box-shadow: 0px 0px 30px 0px #E3D61D4D;
                 align-self: center;
                 cursor: pointer;
-                p {
-                    font-size: 24px;
-                    font-weight: 700;
-                    margin: 0;
-                }
+                font-size: 24px;
+                font-weight: 700;
             }
         }
     }
