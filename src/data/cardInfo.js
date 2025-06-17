@@ -1,0 +1,40 @@
+export const characters = [
+  {
+    id: 1,
+    name: "Yoda",
+    height: "66 cm",
+    mass: "13 kg",
+    hairColor: "White",
+    skinColor: "Green",
+    eyeColor: "Green-gold",
+    birthYear: "896 BBY",
+    gender: "Male",
+    image: require("@/assets/img/yoda.jpg"),
+  },
+
+  {
+    id: 2,
+    name: "Darth Vader",
+    height: "203 cm",
+    mass: "120 kg (with armor)",
+    hairColor: "Dark",
+    skinColor: "Pale",
+    eyeColor: "Yellow",
+    birthYear: "41 BBY",
+    gender: "Male",
+    image: require("@/assets/img/darth_vader.jpg"),
+  },
+
+  {
+    id: 3,
+    name: "Obi-wan Kenobi",
+    height: "182 cm",
+    mass: "81 kg",
+    hairColor: "Auburn",
+    skinColor: "Light",
+    eyeColor: "Gray-blue",
+    birthYear: "57 BBY",
+    gender: "Male",
+    image: require("@/assets/img/obi_wan.jpg"),
+  },
+];
