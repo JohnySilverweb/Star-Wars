@@ -9,16 +9,67 @@ body {
   margin: 0;
 }
 
-button {
+button,
+button[type="button"] {
+  display: flex;
+  align-items: center;
   width: 146px;
   height: 44px;
   border-radius: 7px;
-  padding: 8px 50px;
+  padding: 20px 50px;
   border: none;
   background: #e3d61d;
   box-shadow: 0px 0px 30px 0px #e3d61d4d;
   align-self: center;
   cursor: pointer;
-  font-size: 24px;
-  font-weight: 700;
+  span {
+    text-transform: none;
+    font-size: 24px;
+    font-weight: 700;
+  }
+}
+
+.v-card.card {
+  background-color: rgb(0, 0, 0);
+  border: 1px solid rgba(255, 217, 0, 0.3);
+  border-radius: 15px !important;
+  box-shadow: 0px 0px 50px 0px #e3d61d66 !important;
+  .v-messages {
+    background-color: rgba(255, 217, 0, 0.644);
+    border-radius: 20px;
+    display: none;
+  }
+  .v-card-title {
+    color: gold;
+  }
+  .v-field {
+    border: 1px solid rgba(255, 217, 0, 1);
+    border-radius: 10px;
+    label {
+      color: white;
+    }
+  }
+
+  .v-field__input {
+    color: #ffffffc4;
+  }
+
+  hr {
+    color: gold;
+    width: 90%;
+    align-self: center;
+  }
+  .v-card-actions{
+    padding: 1.5rem;
+    button:first-of-type {
+      background-color: #e3d61d00;
+      color: white;
+      box-shadow: none;
+    }
+  }
+}
+
+.blurred {
+  filter: blur(5px);
+  pointer-events: none;
 }
