@@ -39,30 +39,19 @@
   </div>
 </template>
 
-<script>
+<script setup>
 import { characters } from "@/data/cardInfo.js";
+/* import { shallowRef } from "vue";
 
-export default {
-  data() {
-    return {
-      characters,
-    };
-  },
+const dialog = shallowRef(false); */
 
-  methods: {
-    goToEdit(id) {
-      this.$router.push(`/edit/${id}`);
-    },
-
-    getImage(character) {
-      return {
-        background: `linear-gradient(180deg, rgba(0,0,0,0) 29.41%, 
-        rgba(0,0,0,0.8) 62.6%), 
+const getImage = (character) => {
+  return {
+    background: `linear-gradient(180deg, rgba(0,0,0,0) 29.41%,
+        rgba(0,0,0,0.8) 62.6%),
         url(${character.image})
         center / cover no-repeat`,
-      };
-    },
-  },
+  };
 };
 </script>
 

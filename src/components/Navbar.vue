@@ -2,7 +2,7 @@
   <header>
     <a href="#">Upcoming</a>
     <a href="#">Legacy</a>
-    <img src="/img/logo.png" alt="star wars logo" />
+    <img src="@/assets/img/logo.png" alt="star wars logo" />
     <a href="#">Merch</a>
     <a href="#">About</a>
   </header>
